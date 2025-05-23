@@ -1101,6 +1101,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gun
       objectReference: {fileID: 0}
+    - target: {fileID: 4056126326248842479, guid: 8c9bd606ffdfc1847bf2dcb5a4699278,
+        type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 4697874904567428071, guid: a58ac6c450d67a34f956a95a7c9bd480,
+        type: 3}
     - target: {fileID: 6852636988171295583, guid: 8c9bd606ffdfc1847bf2dcb5a4699278,
         type: 3}
       propertyPath: m_InteractionManager
