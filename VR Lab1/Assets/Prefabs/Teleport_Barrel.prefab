@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -7552102571648960889}
   - component: {fileID: 9163816469316611535}
   m_Layer: 0
-  m_Name: Barrel
+  m_Name: Teleport_Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
