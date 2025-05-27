@@ -6206,16 +6206,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1711851321}
     m_Modifications:
-    - target: {fileID: 1103339913403247183, guid: ada908419d8da3e4789b217bd1854235,
-        type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 147049792}
-    - target: {fileID: 2431041443618707207, guid: ada908419d8da3e4789b217bd1854235,
-        type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 202788027973128804}
     - target: {fileID: 8459144284176630322, guid: ada908419d8da3e4789b217bd1854235,
         type: 3}
       propertyPath: m_Name
@@ -6234,7 +6224,7 @@ PrefabInstance:
     - target: {fileID: 9092550240320329864, guid: ada908419d8da3e4789b217bd1854235,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.570036
+      value: -2.5341
       objectReference: {fileID: 0}
     - target: {fileID: 9092550240320329864, guid: ada908419d8da3e4789b217bd1854235,
         type: 3}
@@ -6281,12 +6271,6 @@ PrefabInstance:
 --- !u!4 &202788027973128803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9092550240320329864, guid: ada908419d8da3e4789b217bd1854235,
-    type: 3}
-  m_PrefabInstance: {fileID: 202788027973128802}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &202788027973128804 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7825719408713388708, guid: ada908419d8da3e4789b217bd1854235,
     type: 3}
   m_PrefabInstance: {fileID: 202788027973128802}
   m_PrefabAsset: {fileID: 0}
