@@ -95,8 +95,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011154522, y: 0.015793081, z: 0.087131254}
-  m_Center: {x: 0, y: 0.0047341543, z: 0.018643998}
+  m_Size: {x: 0.011165084, y: 0.015793081, z: 0.087131254}
+  m_Center: {x: 0.004948536, y: 0.0047341543, z: 0.018643998}
 --- !u!1 &530047266816996056
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,8 +202,7 @@ GameObject:
   - component: {fileID: 530047266708008759}
   - component: {fileID: 530047266708008752}
   - component: {fileID: 530047266708008756}
-  - component: {fileID: 530047266708008757}
-  - component: {fileID: 530047266708008758}
+  - component: {fileID: 2495945291119210832}
   - component: {fileID: 6070496693872568229}
   m_Layer: 0
   m_Name: desert2
@@ -396,7 +395,7 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 530047266708008758}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LaunchProjectile, Assembly-CSharp
         m_MethodName: Fire
         m_Mode: 1
@@ -408,7 +407,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 530047266708008757}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LaunchProjectile, Assembly-CSharp
         m_MethodName: Fire
         m_Mode: 1
@@ -515,7 +514,7 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &530047266708008757
+--- !u!114 &2495945291119210832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -524,29 +523,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 836107123609238125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 623c5848030e9674893bb3bb376834b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5488765895b645a45ab8fabda9ebd532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 4819210407142538089, guid: cce6cf437266a394996628782d04cd32,
-    type: 3}
-  startPoint: {fileID: 530047267261799980}
-  launchSpeed: 75
---- !u!114 &530047266708008758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836107123609238125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 623c5848030e9674893bb3bb376834b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  poolSize: 10
   projectilePrefab: {fileID: 8075231895849665883, guid: fc14cb6db46ea6544a48ea7924857179,
     type: 3}
-  startPoint: {fileID: 530047266816996057}
-  launchSpeed: 100
+  projectileCapPrefab: {fileID: 4819210407142538089, guid: cce6cf437266a394996628782d04cd32,
+    type: 3}
+  bulletStartPoint: {fileID: 530047266816996057}
+  capStartPoint: {fileID: 530047267261799980}
+  bulletLaunchSpeed: 100
+  capLaunchSpeed: 75
+  ammoText: {fileID: 0}
 --- !u!95 &6070496693872568229
 Animator:
   serializedVersion: 4
