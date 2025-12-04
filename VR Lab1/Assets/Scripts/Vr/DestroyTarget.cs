@@ -10,24 +10,11 @@ public class DestroyTarget : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("BulletHead"))
-        {
-            Debug.Log("Recibe la colision");
-            collision.gameObject.GetComponent<DeactivateBullets>().DisableProjectileInmediately();
-
-            //Increment Score 
-
-            Destroy(gameObject);
-        }
-    }
-
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Recibe el trigger");
         if (other.gameObject.CompareTag("BulletHead"))
         {
-            Debug.Log("Recibe el trigger");
             other.gameObject.GetComponent<DeactivateBullets>().DisableProjectileInmediately();
 
             //Increment Score 
