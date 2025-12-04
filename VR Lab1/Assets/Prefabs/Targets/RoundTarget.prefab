@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6297341213032051142}
   - component: {fileID: 3393557361890611143}
   - component: {fileID: 3081479890320614653}
-  - component: {fileID: 2942981383466875859}
   - component: {fileID: 7697141400628525408}
+  - component: {fileID: 1688361057}
   m_Layer: 0
   m_Name: RoundTarget
   m_TagString: Untagged
@@ -85,22 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!58 &2942981383466875859
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2764969916362067409}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!114 &7697141400628525408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,3 +97,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd8850ba1dc33a4b89231255ed4817c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &1688361057
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2764969916362067409}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}

@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 1103339913403247183}
   - component: {fileID: 5846211209809513807}
   m_Layer: 0
-  m_Name: DesertModel1(Worse)
+  m_Name: z-(Deprecated)DesertModel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
