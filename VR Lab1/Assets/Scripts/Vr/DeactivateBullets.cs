@@ -12,6 +12,13 @@ public class DeactivateBullets : MonoBehaviour
         StartCoroutine("Disable");
     }
 
+    public void DisableProjectileInmediately()
+    {
+        gameObject.SetActive(false);
+        BulletPoolerShooter.SharedInstance.ProjectileCount++;
+        BulletPoolerShooter.SharedInstance.RefreshAmmoText();
+    }
+
     IEnumerator Disable()
     {
         yield return new WaitForSeconds(lifeTime);

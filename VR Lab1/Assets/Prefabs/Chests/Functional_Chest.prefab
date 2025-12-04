@@ -209,7 +209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7421749044141491966}
   m_Layer: 0
-  m_Name: Bronze_Chest_Coin
+  m_Name: Functional_Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

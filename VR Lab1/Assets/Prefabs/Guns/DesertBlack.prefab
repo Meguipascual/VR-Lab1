@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 26f9c13ad7221bd4fb892ae40e5e741f, type: 2}
+  - {fileID: 2100000, guid: e0eded7551217b941bae73c29cdb15b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 2495945291119210832}
   - component: {fileID: 6070496693872568229}
   m_Layer: 0
-  m_Name: desert2
+  m_Name: DesertBlack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -618,7 +618,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2c6f4941d8385eb459d1def31a7ec94f, type: 2}
+  - {fileID: 2100000, guid: 2bb15d40941496a47b9cc7c9e8da70d6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -714,7 +714,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b1ca44aab12acbd4a95a7d2da5e31437, type: 2}
+  - {fileID: 2100000, guid: e0eded7551217b941bae73c29cdb15b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -797,7 +797,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 26f9c13ad7221bd4fb892ae40e5e741f, type: 2}
+  - {fileID: 2100000, guid: e0eded7551217b941bae73c29cdb15b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
