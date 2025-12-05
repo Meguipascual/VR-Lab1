@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class DestroyTarget : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Recibe el trigger");
+        Debug.Log(other.gameObject.tag);
         if (other.gameObject.CompareTag("BulletHead"))
         {
             other.gameObject.GetComponent<DeactivateBullets>().DisableProjectileInmediately();
@@ -21,11 +16,5 @@ public class DestroyTarget : MonoBehaviour
 
             Destroy(gameObject);
         }    
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
