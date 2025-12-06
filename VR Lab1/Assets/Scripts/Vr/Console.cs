@@ -23,7 +23,7 @@ public class Console : MonoBehaviour
 
         // Aquí es donde "enganchamos" nuestro método a Debug.Log
         Application.logMessageReceived += HandleLog;
-        Application.logMessageReceivedThreaded += HandleLog;
+        //Application.logMessageReceivedThreaded += HandleLog;
     }
 
     private void OnDestroy()
