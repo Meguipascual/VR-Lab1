@@ -18,8 +18,7 @@ public class Console : MonoBehaviour
             return;
         }
         // Limpiar el texto inicial
-        logMessages.Clear();
-        consoleText.text = "";
+        ClearConsole();
 
         // Aquí es donde "enganchamos" nuestro método a Debug.Log
         Application.logMessageReceived += HandleLog;
@@ -45,5 +44,10 @@ public class Console : MonoBehaviour
 
         // Actualizar el texto del UI
         consoleText.text = string.Join("\n", logMessages);
+    }
+    public void ClearConsole()
+    {
+        logMessages.Clear();
+        consoleText.text = "";
     }
 }

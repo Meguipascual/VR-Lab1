@@ -2,18 +2,20 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BulletPoolerShooter : MonoBehaviour
 {
 
     public static BulletPoolerShooter SharedInstance;
-    private Animator animator;
-    private AudioSource audioSource;
+    private Animator _animator;
+    private AudioSource _audioSource;
+    private PlayerAim _playerAim;
     public int poolSize = 10;
     public int ProjectileCount { get; set; }
-    private List<GameObject> pooledBullets = new List<GameObject>();
-    private List<GameObject> pooledCaps = new List<GameObject>();
+    private List<GameObject> _pooledBullets = new List<GameObject>();
+    private List<GameObject> _pooledCaps = new List<GameObject>();
 
     [Tooltip("The Bullet that's created")]
     public GameObject projectilePrefab = null;
@@ -43,8 +45,9 @@ public class BulletPoolerShooter : MonoBehaviour
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>();
+        _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
+        _playerAim = GetComponentInChildren<PlayerAim>();
         ProjectileCount = poolSize; 
         RefreshAmmoText();
         for (int i = 0; i < poolSize; i++) 
@@ -53,8 +56,8 @@ public class BulletPoolerShooter : MonoBehaviour
             GameObject obj2 = (GameObject)Instantiate(projectileCapPrefab);
             obj.SetActive(false);
             obj2.SetActive(false);
-            pooledBullets.Add(obj);
-            pooledCaps.Add(obj2);
+            _pooledBullets.Add(obj);
+            _pooledCaps.Add(obj2);
         }
     }
 
@@ -74,8 +77,10 @@ public class BulletPoolerShooter : MonoBehaviour
         ApplyForceBullet(bullet);
         ApplyForceCap(cap);
 
-        animator.Play("shoot");
-        audioSource.Play();
+        _animator.Play("shoot");
+        _audioSource.Play();
+
+        TryToDestroyTarget();
 
         ProjectileCount--;
         RefreshAmmoText();
@@ -125,12 +130,12 @@ public class BulletPoolerShooter : MonoBehaviour
     public GameObject GetPooledbullet()
     {
         // For as many objects as are in the pooledObjects list
-        for (int i = 0; i < pooledBullets.Count; i++)
+        for (int i = 0; i < _pooledBullets.Count; i++)
         {
             // if the pooled objects is NOT active, return that object 
-            if (!pooledBullets[i].activeInHierarchy)
+            if (!_pooledBullets[i].activeInHierarchy)
             {
-                return pooledBullets[i];
+                return _pooledBullets[i];
             }
         }
         // otherwise, return null   
@@ -140,15 +145,33 @@ public class BulletPoolerShooter : MonoBehaviour
     public GameObject GetPooledCap()
     {
         // For as many objects as are in the pooledObjects list
-        for (int i = 0; i < pooledCaps.Count; i++)
+        for (int i = 0; i < _pooledCaps.Count; i++)
         {
             // if the pooled objects is NOT active, return that object 
-            if (!pooledCaps[i].activeInHierarchy)
+            if (!_pooledCaps[i].activeInHierarchy)
             {
-                return pooledCaps[i];
+                return _pooledCaps[i];
             }
         }
         // otherwise, return null   
         return null;
+    }
+    private void TryToDestroyTarget()
+    {
+        var hit = _playerAim.GetTarget();
+
+        if(hit.collider == null)
+        {
+            return;
+        }
+        else
+        {
+            Debug.Log($"Colisiona con : {hit.collider.gameObject.name}");
+            /*
+             * en caso de haber puntuaciones aqui deberiamos solicitar la puntuacion correspondiente del objeto al que hayamos golpeado
+             * hit.transform.GetComponent<>();
+            */
+            Destroy(hit.transform.gameObject);
+        }
     }
 }

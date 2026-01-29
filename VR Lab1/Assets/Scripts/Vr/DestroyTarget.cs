@@ -11,7 +11,7 @@ public class DestroyTarget : MonoBehaviour
         if (other.gameObject.CompareTag("BulletHead"))
         {
             other.gameObject.GetComponent<DeactivateBullets>().DisableProjectileInmediately();
-
+            
             //Increment Score 
 
             Destroy(gameObject);
