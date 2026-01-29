@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 237843282175206931}
   - component: {fileID: 4033519000641478117}
   - component: {fileID: 6565144428223526219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pTorus1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 7133849845602968059}
   - component: {fileID: 5239607657908228807}
   - component: {fileID: 8775421866945106200}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pCylinder1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9097894449806563881}
   - component: {fileID: 8775421868136441042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CokeCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}

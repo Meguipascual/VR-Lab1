@@ -14,6 +14,8 @@ public class MovingTarget : MonoBehaviour
     {
         if (_targetStart == null || _targetEnd == null) { return; }
         transform.position = _targetStart.transform.position;
+        _targetStart.SetActive(false);
+        _targetEnd.SetActive(false);
         _isFacingEnd = true;
     }
 

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4076190887669254174}
   - component: {fileID: 2051580045191804697}
   - component: {fileID: 5110883793570112058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Handler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7421749044141491966}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Functional_Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 4118405401257315753}
   - component: {fileID: 2593070142236488732}
   - component: {fileID: 4940703254390847760}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 5126738252262742980}
   - component: {fileID: 8445924221845521968}
   - component: {fileID: 3946975237055170572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Chest_Traditional_Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 2467755376222229475}
   - component: {fileID: 9112025119282600680}
   - component: {fileID: 9150875757274199044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Chest_Traditional
   m_TagString: Untagged
   m_Icon: {fileID: 0}

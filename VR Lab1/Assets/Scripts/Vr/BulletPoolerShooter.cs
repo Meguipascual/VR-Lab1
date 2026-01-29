@@ -38,6 +38,9 @@ public class BulletPoolerShooter : MonoBehaviour
     [Tooltip("The projectile that's created")]
     public TextMeshProUGUI ammoText;
 
+    [Tooltip("The shooting particle effect")]
+    public ParticleSystem shootingParticle;
+
     void Awake()
     {
         SharedInstance = this;
@@ -81,7 +84,10 @@ public class BulletPoolerShooter : MonoBehaviour
         _audioSource.Play();
 
         TryToDestroyTarget();
-
+        if(shootingParticle != null)
+        {
+            shootingParticle.Play();
+        }
         ProjectileCount--;
         RefreshAmmoText();
     }
