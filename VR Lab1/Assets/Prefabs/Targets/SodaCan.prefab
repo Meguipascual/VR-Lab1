@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5264326081541981477}
   - component: {fileID: 5264326081541981474}
   - component: {fileID: 5264326081541981476}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SodaCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 444316916413527505}
   - component: {fileID: 4964089719377449945}
   - component: {fileID: 1241669062156103207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SodaCanMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 5366745044390217484}
   - component: {fileID: 8578545846161256414}
   - component: {fileID: 7194097355728941623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SodaCapMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
