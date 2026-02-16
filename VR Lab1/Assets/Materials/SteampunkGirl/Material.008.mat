@@ -88,7 +88,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _Ambient_Strength: 0.3
+    - _Ambient_Strength: 0.75
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -125,11 +125,11 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.63818824, g: 0.5491741, b: 0.099382706, a: 1}
     - _Color: {r: 0.6381882, g: 0.5491741, b: 0.099382676, a: 1}
-    - _Diffuse_Color: {r: 0.6392157, g: 0.54901963, b: 0.09803922, a: 0}
+    - _Diffuse_Color: {r: 0.6392157, g: 0.34509805, b: 0.36862746, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Fresnel_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Fresnel_Color: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Specular_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Specular_Color: {r: 0.6698113, g: 0.19841579, b: 0.19841579, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3158904764708584773
 MonoBehaviour:
