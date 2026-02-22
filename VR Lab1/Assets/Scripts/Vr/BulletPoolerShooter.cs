@@ -7,8 +7,6 @@ using UnityEngine;
 
 public class BulletPoolerShooter : MonoBehaviour
 {
-
-    public static BulletPoolerShooter SharedInstance;
     private Animator _animator;
     private AudioSource _audioSource;
     private PlayerAim _playerAim;
@@ -41,11 +39,6 @@ public class BulletPoolerShooter : MonoBehaviour
     [Tooltip("The shooting particle effect")]
     public ParticleSystem shootingParticle;
 
-    void Awake()
-    {
-        SharedInstance = this;
-    }
-
     private void Start()
     {
         _animator = GetComponent<Animator>();
@@ -57,6 +50,9 @@ public class BulletPoolerShooter : MonoBehaviour
         {
             GameObject obj = (GameObject)Instantiate(projectilePrefab);
             GameObject obj2 = (GameObject)Instantiate(projectileCapPrefab);
+
+            obj.GetComponentInChildren<DeactivateBullets>().BulletPooler = this;
+
             obj.SetActive(false);
             obj2.SetActive(false);
             _pooledBullets.Add(obj);

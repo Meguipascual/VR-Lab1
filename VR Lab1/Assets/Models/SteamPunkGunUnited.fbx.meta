@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 913d8c9e7008fb045a5f635b9df8f240
+guid: a3671e72d44c8e34b9481fa70113d707
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,28 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
+      name: AimGreen
     second: {fileID: 2100000, guid: 37d321a2610babe47a9eccc636c71dd2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert10
-    second: {fileID: 2100000, guid: 2bb15d40941496a47b9cc7c9e8da70d6, type: 2}
+      name: Copper
+    second: {fileID: 2100000, guid: 7f6bc2319a85d1743967077d206cb9e6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert4
-    second: {fileID: 2100000, guid: 2c6f4941d8385eb459d1def31a7ec94f, type: 2}
+      name: DarkIron
+    second: {fileID: 2100000, guid: fb06263f1402b0a4196e77d03f30e9a1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert6
-    second: {fileID: 2100000, guid: b1ca44aab12acbd4a95a7d2da5e31437, type: 2}
+      name: DarkWood
+    second: {fileID: 2100000, guid: f02697d52c237634d8028cf93d3e7d52, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert8
-    second: {fileID: 2100000, guid: e0eded7551217b941bae73c29cdb15b4, type: 2}
+      name: SilverDetail
+    second: {fileID: 2100000, guid: af80f0fcf4f3fe344acf040fd5d8cd8b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

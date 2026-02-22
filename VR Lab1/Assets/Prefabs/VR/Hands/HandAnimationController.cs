@@ -61,4 +61,29 @@ public class HandAnimationController : MonoBehaviour
         }
         _animator.Play("ReleaseIndex");
     }
+
+    public void PlayPulseOthers()
+    {
+
+        if (_isNull)
+        {
+            TrySearch();
+            return;
+        }
+        _animator.Play("PulseMid");
+        _animator.Play("PulseRing");
+        _animator.Play("PulsePinky");
+    }
+
+    public void PlayReleaseOthers()
+    {
+        if (_isNull)
+        {
+            TrySearch();
+            return;
+        }
+        _animator.Play("ReleaseMid");
+        _animator.Play("ReleaseRing");
+        _animator.Play("ReleasePinky");
+    }
 }
