@@ -14,6 +14,9 @@ GameObject:
   - component: {fileID: 8132855919654412460}
   - component: {fileID: 4302420566466465975}
   - component: {fileID: 6880298458556439549}
+  - component: {fileID: 8233834297668269957}
+  - component: {fileID: 1282574192879528363}
+  - component: {fileID: 3821396845473691924}
   m_Layer: 6
   m_Name: BeerBottle (1)
   m_TagString: Untagged
@@ -28,14 +31,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7404367524454778288}
-  m_LocalRotation: {x: -0, y: 0.68912584, z: -0, w: 0.72464174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.18761837, y: 1, z: -27.829588}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 87.122, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6495758777997824175
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -95,7 +98,7 @@ MeshCollider:
   m_GameObject: {fileID: 7404367524454778288}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -236,3 +239,44 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!65 &8233834297668269957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404367524454778288}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07334845, y: 0.017113954, z: 0.07195091}
+  m_Center: {x: -0.000000007450581, y: 0.0072283596, z: 0.0002641678}
+--- !u!136 &1282574192879528363
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404367524454778288}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.051964447
+  m_Height: 0.26297203
+  m_Direction: 1
+  m_Center: {x: -1.416477e-17, y: 0.1301574, z: -0.000000011175871}
+--- !u!136 &3821396845473691924
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404367524454778288}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.022157958
+  m_Height: 0.121427655
+  m_Direction: 1
+  m_Center: {x: -0.000103835024, y: 0.269175, z: -0.000000011175507}
