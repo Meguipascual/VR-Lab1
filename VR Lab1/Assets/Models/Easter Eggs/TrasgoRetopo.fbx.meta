@@ -1,60 +1,54 @@
 fileFormatVersion: 2
-guid: f9438f20d9d5f9048b646d465279819a
+guid: f812fec954a007845964a8290f5496e4
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
+  internalIDToNameTable: []
+  externalObjects:
   - first:
-      74: 3063744759204755650
-    second: PulsePinky
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert11
+    second: {fileID: 2100000, guid: 22b364c1e075b0b449ee135c84dad99f, type: 2}
   - first:
-      74: -155722612052167669
-    second: PulseRingFinger
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert12
+    second: {fileID: 2100000, guid: 89c7380f626ca594abe4574271ecc557, type: 2}
   - first:
-      74: 3040256904723807044
-    second: PulseMiddle
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 2245aee3fbd66094e8a23559c0772926, type: 2}
   - first:
-      74: 885944232402757753
-    second: Armature|Action
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 7f6bc2319a85d1743967077d206cb9e6, type: 2}
   - first:
-      74: -9125523489441110064
-    second: Armature|Action.001
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: b97c6bf60b271bc4194d983ea6bc0508, type: 2}
   - first:
-      74: 4864456487366326693
-    second: Armature|Action.002
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 0df6c60c4ef403149beedbcffdfb9fe1, type: 2}
   - first:
-      74: 4631699199671213467
-    second: Armature|PulseIndex
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert6
+    second: {fileID: 2100000, guid: 22b364c1e075b0b449ee135c84dad99f, type: 2}
   - first:
-      74: 1407346778580276361
-    second: Armature|PulseLowerFingers
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert7
+    second: {fileID: 2100000, guid: b9cc5e1a5745ed84ba638e66e876c00d, type: 2}
   - first:
-      74: 1371601035294200265
-    second: Armature|PulseMiddle
-  - first:
-      74: -5747901644455659563
-    second: Armature|PulsePinky
-  - first:
-      74: -5849749614342887872
-    second: Armature|PulseRingFinger
-  - first:
-      74: -3521266757860051783
-    second: Armature|PulseThumb
-  - first:
-      74: 3364210066406132939
-    second: Armature|ReleaseIndex
-  - first:
-      74: -3961892414208909419
-    second: Armature|ReleaseMiddle
-  - first:
-      74: 1025425593590120505
-    second: Armature|ReleasePinky
-  - first:
-      74: 5155137237615297327
-    second: Armature|ReleaseRingFinger
-  - first:
-      74: -1484603823665750119
-    second: Armature|ReleaseThumb
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert8
+    second: {fileID: 2100000, guid: 7f6bc2319a85d1743967077d206cb9e6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -148,7 +142,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

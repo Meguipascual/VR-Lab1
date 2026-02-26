@@ -1,60 +1,24 @@
 fileFormatVersion: 2
-guid: f9438f20d9d5f9048b646d465279819a
+guid: bf9ec0cd9b09a054c857104990027238
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
+  internalIDToNameTable: []
+  externalObjects:
   - first:
-      74: 3063744759204755650
-    second: PulsePinky
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: a32daeac2db563941882885961d03e3c, type: 2}
   - first:
-      74: -155722612052167669
-    second: PulseRingFinger
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 4c80d18bc7f66ac41b9afffe8f5d5b84, type: 2}
   - first:
-      74: 3040256904723807044
-    second: PulseMiddle
-  - first:
-      74: 885944232402757753
-    second: Armature|Action
-  - first:
-      74: -9125523489441110064
-    second: Armature|Action.001
-  - first:
-      74: 4864456487366326693
-    second: Armature|Action.002
-  - first:
-      74: 4631699199671213467
-    second: Armature|PulseIndex
-  - first:
-      74: 1407346778580276361
-    second: Armature|PulseLowerFingers
-  - first:
-      74: 1371601035294200265
-    second: Armature|PulseMiddle
-  - first:
-      74: -5747901644455659563
-    second: Armature|PulsePinky
-  - first:
-      74: -5849749614342887872
-    second: Armature|PulseRingFinger
-  - first:
-      74: -3521266757860051783
-    second: Armature|PulseThumb
-  - first:
-      74: 3364210066406132939
-    second: Armature|ReleaseIndex
-  - first:
-      74: -3961892414208909419
-    second: Armature|ReleaseMiddle
-  - first:
-      74: 1025425593590120505
-    second: Armature|ReleasePinky
-  - first:
-      74: 5155137237615297327
-    second: Armature|ReleaseRingFinger
-  - first:
-      74: -1484603823665750119
-    second: Armature|ReleaseThumb
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: fb06263f1402b0a4196e77d03f30e9a1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -148,7 +112,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

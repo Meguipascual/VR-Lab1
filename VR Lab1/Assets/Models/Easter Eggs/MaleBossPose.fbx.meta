@@ -1,60 +1,74 @@
 fileFormatVersion: 2
-guid: f9438f20d9d5f9048b646d465279819a
+guid: 6f46ae12379a9bb4291e597dc5f4a5f4
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
+  internalIDToNameTable: []
+  externalObjects:
   - first:
-      74: 3063744759204755650
-    second: PulsePinky
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bandana
+    second: {fileID: 2100000, guid: b3b40c192f46be442be6a84ec13f68d4, type: 2}
   - first:
-      74: -155722612052167669
-    second: PulseRingFinger
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrazosCotaDeMalla
+    second: {fileID: 2100000, guid: 2245aee3fbd66094e8a23559c0772926, type: 2}
   - first:
-      74: 3040256904723807044
-    second: PulseMiddle
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cuernos
+    second: {fileID: 2100000, guid: 2c6f4941d8385eb459d1def31a7ec94f, type: 2}
   - first:
-      74: 885944232402757753
-    second: Armature|Action
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cuerpo
+    second: {fileID: 2100000, guid: 2245aee3fbd66094e8a23559c0772926, type: 2}
   - first:
-      74: -9125523489441110064
-    second: Armature|Action.001
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extract21
+    second: {fileID: 2100000, guid: 4c80d18bc7f66ac41b9afffe8f5d5b84, type: 2}
   - first:
-      74: 4864456487366326693
-    second: Armature|Action.002
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grebas
+    second: {fileID: 2100000, guid: fb06263f1402b0a4196e77d03f30e9a1, type: 2}
   - first:
-      74: 4631699199671213467
-    second: Armature|PulseIndex
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HombreraCuero
+    second: {fileID: 2100000, guid: b3b40c192f46be442be6a84ec13f68d4, type: 2}
   - first:
-      74: 1407346778580276361
-    second: Armature|PulseLowerFingers
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HombreraMetal
+    second: {fileID: 2100000, guid: fb06263f1402b0a4196e77d03f30e9a1, type: 2}
   - first:
-      74: 1371601035294200265
-    second: Armature|PulseMiddle
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ojo
+    second: {fileID: 2100000, guid: 37d321a2610babe47a9eccc636c71dd2, type: 2}
   - first:
-      74: -5747901644455659563
-    second: Armature|PulsePinky
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parche
+    second: {fileID: 2100000, guid: b3b40c192f46be442be6a84ec13f68d4, type: 2}
   - first:
-      74: -5849749614342887872
-    second: Armature|PulseRingFinger
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeanaSol
+    second: {fileID: 2100000, guid: 7f6bc2319a85d1743967077d206cb9e6, type: 2}
   - first:
-      74: -3521266757860051783
-    second: Armature|PulseThumb
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PetoMetal
+    second: {fileID: 2100000, guid: fb06263f1402b0a4196e77d03f30e9a1, type: 2}
   - first:
-      74: 3364210066406132939
-    second: Armature|ReleaseIndex
-  - first:
-      74: -3961892414208909419
-    second: Armature|ReleaseMiddle
-  - first:
-      74: 1025425593590120505
-    second: Armature|ReleasePinky
-  - first:
-      74: 5155137237615297327
-    second: Armature|ReleaseRingFinger
-  - first:
-      74: -1484603823665750119
-    second: Armature|ReleaseThumb
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Taparrabos
+    second: {fileID: 2100000, guid: 0df6c60c4ef403149beedbcffdfb9fe1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -148,7 +162,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
