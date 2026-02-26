@@ -38,6 +38,9 @@
         },
         {
             "m_Id": "8b3f7b7ab2f3442d9caef33891429513"
+        },
+        {
+            "m_Id": "9ad6facc92d645fb9f447440edec9024"
         }
     ],
     "m_Keywords": [],
@@ -230,6 +233,9 @@
         },
         {
             "m_Id": "1377550dc7e142fa9e40648fde8d1182"
+        },
+        {
+            "m_Id": "9fc36ce685594f1d9444ad80ca841c53"
         }
     ],
     "m_GroupDatas": [
@@ -801,6 +807,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "79cb0500a3de42bd9480bceb23f5bd32"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "9fc36ce685594f1d9444ad80ca841c53"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "476b4531a7284ade933853b12e680e63"
                 },
                 "m_SlotId": 0
             }
@@ -3871,6 +3891,9 @@
         },
         {
             "m_Id": "8b3f7b7ab2f3442d9caef33891429513"
+        },
+        {
+            "m_Id": "9ad6facc92d645fb9f447440edec9024"
         }
     ]
 }
@@ -4479,7 +4502,7 @@
         "y": 0.0
     },
     "m_Labels": [],
-    "m_Channel": 1
+    "m_Channel": 0
 }
 
 {
@@ -5079,6 +5102,35 @@
 }
 
 {
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "9ad6facc92d645fb9f447440edec9024",
+    "m_Guid": {
+        "m_GuidSerialized": "3a3b0c50-fdbd-42ea-8700-d46cd773548b"
+    },
+    "m_Name": "Emission Color",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Emission Color",
+    "m_DefaultReferenceName": "_Emission_Color",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "9ba08bc1f0dd43b4a8d252339212ab0a",
@@ -5215,6 +5267,41 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "9fc36ce685594f1d9444ad80ca841c53",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 688.7999877929688,
+            "y": -908.0000610351563,
+            "width": 153.60009765625,
+            "height": 33.5999755859375
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "ae4192cc65504cd5bfba89035921cc7f"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "9ad6facc92d645fb9f447440edec9024"
     }
 }
 
@@ -5450,6 +5537,31 @@
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "ae4192cc65504cd5bfba89035921cc7f",
+    "m_Id": 0,
+    "m_DisplayName": "Emission Color",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
     "m_Labels": []
 }
 
@@ -5840,7 +5952,7 @@
         "bump map"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
