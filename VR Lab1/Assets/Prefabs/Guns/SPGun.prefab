@@ -5136,7 +5136,6 @@ GameObject:
   - component: {fileID: 9057516886665441392}
   - component: {fileID: 250424680256214444}
   - component: {fileID: 761251962749028981}
-  - component: {fileID: 2561964264429210039}
   - component: {fileID: 364009200030114997}
   - component: {fileID: 2127225831064452061}
   - component: {fileID: 6246906094400792407}
@@ -5465,20 +5464,6 @@ MonoBehaviour:
   capLaunchSpeed: 75
   ammoText: {fileID: 0}
   shootingParticle: {fileID: 2856378600192640824}
---- !u!114 &2561964264429210039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4332046698868823822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3a1762983d296d41ac6d61e55a9d985, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  consoleText: {fileID: 0}
-  maxMessages: 20
 --- !u!65 &364009200030114997
 BoxCollider:
   m_ObjectHideFlags: 0

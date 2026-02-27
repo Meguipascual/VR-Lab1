@@ -176,7 +176,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3582555253620184900}
   - component: {fileID: 6355472405359743681}
-  - component: {fileID: 5918791553784545080}
   m_Layer: 6
   m_Name: BulletStartPoint
   m_TagString: Untagged
@@ -216,20 +215,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   _detectionDistance: 30
---- !u!114 &5918791553784545080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3943422507565250605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3a1762983d296d41ac6d61e55a9d985, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  consoleText: {fileID: 0}
-  maxMessages: 5
 --- !u!1 &5574490889995673153
 GameObject:
   m_ObjectHideFlags: 0

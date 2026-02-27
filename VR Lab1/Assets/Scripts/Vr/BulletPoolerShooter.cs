@@ -169,11 +169,21 @@ public class BulletPoolerShooter : MonoBehaviour
         else
         {
             Debug.Log($"Colisiona con : {hit.collider.gameObject.name}");
-            /*
-             * en caso de haber puntuaciones aqui deberiamos solicitar la puntuacion correspondiente del objeto al que hayamos golpeado
-             * hit.transform.GetComponent<>();
-            */
-            Destroy(hit.transform.gameObject);
+
+            if (hit.collider.gameObject.CompareTag("Human"))
+            {
+                hit.collider.GetComponentInParent<RagdollController>().SetRagdoll(true);
+            }
+            else if(hit.collider.gameObject.CompareTag("Target"))
+            {
+                /*
+                 * en caso de haber puntuaciones aqui deberiamos solicitar la puntuacion correspondiente del objeto al que hayamos golpeado
+                 * hit.transform.GetComponent<>();
+                */
+
+
+                Destroy(hit.transform.gameObject);
+            }
         }
     }
 }
