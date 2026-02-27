@@ -2487,7 +2487,6 @@ GameObject:
   - component: {fileID: 463822143}
   - component: {fileID: 463822146}
   - component: {fileID: 463822145}
-  - component: {fileID: 463822144}
   - component: {fileID: 463822147}
   - component: {fileID: 463822148}
   m_Layer: 6
@@ -2512,20 +2511,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &463822144
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463822142}
-  m_Material: {fileID: 13400000, guid: 9dfce9feba2bb554faaad677ef18812b, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &463822145
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3065,6 +3050,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 430047115068326715, guid: d0b9bc18afacf7c4d96a5714555511fe,
+        type: 3}
+      propertyPath: m_ConnectedBody
+      value: 
+      objectReference: {fileID: 2934821727429438325, guid: d0b9bc18afacf7c4d96a5714555511fe,
+        type: 3}
+    - target: {fileID: 2059486057566721579, guid: d0b9bc18afacf7c4d96a5714555511fe,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3915286159265405172, guid: d0b9bc18afacf7c4d96a5714555511fe,
         type: 3}
       propertyPath: m_Name
@@ -3083,7 +3079,7 @@ PrefabInstance:
     - target: {fileID: 4404015382171796046, guid: d0b9bc18afacf7c4d96a5714555511fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000035762787
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4404015382171796046, guid: d0b9bc18afacf7c4d96a5714555511fe,
         type: 3}
@@ -3125,7 +3121,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6589830704002816320, guid: d0b9bc18afacf7c4d96a5714555511fe,
+        type: 3}
+      propertyPath: m_ConnectedBody
+      value: 
+      objectReference: {fileID: 2934821727429438325, guid: d0b9bc18afacf7c4d96a5714555511fe,
+        type: 3}
+    - target: {fileID: 7506957991951487641, guid: d0b9bc18afacf7c4d96a5714555511fe,
+        type: 3}
+      propertyPath: m_ConnectedBody
+      value: 
+      objectReference: {fileID: 2934821727429438325, guid: d0b9bc18afacf7c4d96a5714555511fe,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 2059486057566721579, guid: d0b9bc18afacf7c4d96a5714555511fe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d0b9bc18afacf7c4d96a5714555511fe, type: 3}
 --- !u!1 &574210147
 GameObject:
@@ -6741,6 +6750,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 82954330534549968, guid: a14cab319e835194f876d5f1e9c3c2cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 322441323562090335, guid: a14cab319e835194f876d5f1e9c3c2cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011194556207744251, guid: a14cab319e835194f876d5f1e9c3c2cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5030465241728645239, guid: a14cab319e835194f876d5f1e9c3c2cc,
         type: 3}
       propertyPath: m_Name
@@ -10978,7 +11002,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8132855919654412460, guid: e6e8dab52befc1a439be10d286aae9f8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e6e8dab52befc1a439be10d286aae9f8, type: 3}
 --- !u!1001 &1998226083
 PrefabInstance:
