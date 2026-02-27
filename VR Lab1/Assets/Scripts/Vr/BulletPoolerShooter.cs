@@ -168,7 +168,7 @@ public class BulletPoolerShooter : MonoBehaviour
         }
         else
         {
-            Debug.Log($"Colisiona con : {hit.collider.gameObject.name}");
+            Debug.Log($"Colisiona con : {hit.collider.gameObject.name} Tag : {hit.collider.gameObject.tag}");
 
             if (hit.collider.gameObject.CompareTag("Human"))
             {

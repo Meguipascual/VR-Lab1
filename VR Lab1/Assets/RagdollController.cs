@@ -7,6 +7,7 @@ public class RagdollController : MonoBehaviour
     public Animator animator;
     public Rigidbody[] rigidbodies;
     public Rigidbody mainRigidBody;
+    public Collider mainCollider;
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class RagdollController : MonoBehaviour
     {
         animator.enabled = !active;
         mainRigidBody.isKinematic = active;
+        mainCollider.enabled = !active;
 
         foreach (var rb in rigidbodies)
         {
