@@ -11,6 +11,8 @@ public class BulletPoolerShooter : MonoBehaviour
     private AudioSource _audioSource;
     private PlayerAim _playerAim;
     public int poolSize = 10;
+    private int _score; //Temporal, need a centralized gameObject that controls Score an more
+
     public int ProjectileCount { get; set; }
     private List<GameObject> _pooledBullets = new List<GameObject>();
     private List<GameObject> _pooledCaps = new List<GameObject>();
@@ -35,6 +37,9 @@ public class BulletPoolerShooter : MonoBehaviour
 
     [Tooltip("The projectile that's created")]
     public TextMeshProUGUI ammoText;
+
+    [Tooltip("The text that shows your actual Score")]
+    public TextMeshProUGUI scoreText;
 
     [Tooltip("The shooting particle effect")]
     public ParticleSystem shootingParticle;
@@ -178,9 +183,11 @@ public class BulletPoolerShooter : MonoBehaviour
             {
                 /*
                  * en caso de haber puntuaciones aqui deberiamos solicitar la puntuacion correspondiente del objeto al que hayamos golpeado
-                 * hit.transform.GetComponent<>();
+                 * 
                 */
-
+                _score += hit.transform.GetComponent<TargetSettings>().Score;
+                Debug.Log($"Score : {_score}");
+                scoreText.text = $"Score: {_score}";
 
                 Destroy(hit.transform.gameObject);
             }
