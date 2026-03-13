@@ -5633,7 +5633,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2042463936736408156, guid: 8afe235119f57464a89edb8a57bf9792,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 73fe6f8dbb7a64c96a1d52f467088b5d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9b1ecbe797fdd40e0bfc0900b6ad0400, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5909,6 +5909,7 @@ MonoBehaviour:
   bulletLaunchSpeed: 1000
   capLaunchSpeed: 75
   ammoText: {fileID: 0}
+  scoreText: {fileID: 0}
   shootingParticle: {fileID: 4690342961042506291}
 --- !u!65 &7185967467669692862
 BoxCollider:

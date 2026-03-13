@@ -58,7 +58,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 095dc84751a13b341881f5d9272cd73b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 90b206ddd3143754786464dc035badb1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -100,14 +100,14 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _Falloff_Amount: 0.001
-    - _Fresnel_Size: 0.08
+    - _Fresnel_Size: 0.05
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Lighting_Cutoff: 0.001
     - _Metallic: 0
-    - _Normal_Offset: 3.3
-    - _Normal_Strength: 0.17
+    - _Normal_Offset: 0.2
+    - _Normal_Strength: 40
     - _OcclusionStrength: 1
     - _Parallax: 0.08
     - _QueueControl: 0
@@ -126,9 +126,12 @@ Material:
     - _Diffuse_Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Fresnel_Color: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 0}
+    - _Fresnel_Color: {r: 0.6037736, g: 0.43020934, b: 0.32125312, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Specular_Color: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 0}
+    - _Specular_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 10, g: 10, b: 0, a: 0}
+    - _TilingNormal: {r: 10, g: 10, b: 0, a: 0}
+    - _TilingOffset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8181416991821002676
 MonoBehaviour:

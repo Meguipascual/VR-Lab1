@@ -7,6 +7,8 @@ TagManager:
   - BulletHead
   - Target
   - Human
+  - TargetStart
+  - TargetEnd
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - Targets
   - Water
   - UI
-  - Outline Objects
+  - OutlineObjects
   - 
   - 
   - 

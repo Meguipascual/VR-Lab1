@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Diffuse_Texture:
-        m_Texture: {fileID: 2800000, guid: 7aa244dd76805224dbd1b6b738c472b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: afcbb9d8a3393ed47bb83fba1ce321dd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -127,9 +127,13 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Diffuse_Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Fresnel_Color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Specular_Color: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _TilingNormal: {r: 1, g: 1, b: 0, a: 0}
+    - _TilingOffset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6072831951074020267
 MonoBehaviour:
